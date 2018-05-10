@@ -1,0 +1,11 @@
+{
+  "env" : "production",
+  "port": 80,
+  "port_secure" : 443,
+  "upgrade_to_https": true,
+  "cert" : {
+    "key": "key.pem",
+    "cert" : "cert.pem"
+  },
+  "db" : "db.sqlite"
+}

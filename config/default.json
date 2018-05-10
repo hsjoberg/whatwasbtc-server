@@ -1,0 +1,5 @@
+{
+  "env" : "debug",
+  "port": 3000,
+  "db" : "dbdev.sqlite"
+}

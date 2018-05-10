@@ -1,0 +1,27 @@
+{
+  "name": "whatwasbtc-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "start": "node app",
+    "create-db": "node scripts/create-db"
+  },
+  "author": "Hampus Sjöberg",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "config": "^1.30.0",
+    "express": "^4.16.3",
+    "moment": "^2.22.1",
+    "node-fetch": "^2.1.2",
+    "sqlite": "^2.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.0.0",
+    "mocha": "^5.1.1"
+  }
+}
