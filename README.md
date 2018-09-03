@@ -4,7 +4,7 @@
 What was BTC is a simple service that retrieves the Bitcoin price of a given date.  
 It gets the price from a provider (currently Coindesk API) and caches it locally in a sqlite database.
 
-This project contains the HTTP API server part that is supposed to work together with [whatwasbtc-client](https://github.com/hsjoberg/whatwasbtc).  
+This project contains the HTTP API server part that is supposed to work together with [whatwasbtc-client](https://github.com/hsjoberg/whatwasbtc-client).  
 The server is completely decoupled from any specific front-end however.
 
 By design, currently only works with USD.
